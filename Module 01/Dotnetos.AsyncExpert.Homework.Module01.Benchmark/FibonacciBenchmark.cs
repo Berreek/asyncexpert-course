@@ -7,6 +7,7 @@ namespace Dotnetos.AsyncExpert.Homework.Module01.Benchmark
     [DisassemblyDiagnoser(exportCombinedDisassemblyReport: true)]
     [NativeMemoryProfiler]
     [MemoryDiagnoser]
+    [HtmlExporter]
     public class FibonacciBenchmark
     {
         [Benchmark(Baseline = true)]
