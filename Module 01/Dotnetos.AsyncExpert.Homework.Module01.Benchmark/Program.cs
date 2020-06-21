@@ -7,7 +7,7 @@ namespace Dotnetos.AsyncExpert.Homework.Module01.Benchmark
     {
         static void Main(string[] args)
         {
-            BenchmarkSwitcher.FromAssembly(Assembly.GetExecutingAssembly()).Run(args);
+            BenchmarkRunner.Run<FibonacciBenchmark>();
         }
     }
 }
